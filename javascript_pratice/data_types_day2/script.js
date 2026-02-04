@@ -80,12 +80,26 @@ sql        : 'haresh sir',
 english    : 'madam'
 }
 console.log(fullsatck)
+// single values in the fullstack
 console.log(fullsatck.javascript)    //by using the .(dot) we can store the values in the contanier
 console.log(fullsatck.html)
 console.log(fullsatck.sql)
 console.log(fullsatck.english)
 console.log(' In achiver-it institute ' +fullsatck.javascript +' tells javascript. ' +  fullsatck.html + ' tells html topics.' + fullsatck.sql +
     ' tells sql. ' + fullsatck.english +' tells the communiaction class in the institue' )
+
+   // all the keys in the fullstack
+    console.log(Object.keys(fullsatck));      
+// single keys in the fullstack
+    console.log(Object.keys(fullsatck)[0]);
+     console.log(Object.keys(fullsatck)[1]);
+      console.log(Object.keys(fullsatck)[2]);
+       console.log(Object.keys(fullsatck)[3]);
+    
+    
+   
+    
+    
 
 
 // Array  *//list of values
@@ -102,5 +116,20 @@ console.log(hotel[5])    // no value stored in the [5] so it is undefined
 
 
 
+
+
+// Array of Objects in JavaScript
+
+//An array where each item is an object
+
+let student=[
+    {id : 1, course:'ece', number : 50},
+    {id : 2, course:'cse', number : 51},
+    {id : 3, course:'eee', number : 52},
+    {id : 4, course:'mech', number : 53},
+]
+console.log(student[0].course);
+console.log(student[1].id);
+console.log(student[2].number);
 
 

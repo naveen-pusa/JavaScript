@@ -1,4 +1,4 @@
-     // var
+// var
 
 var course = 'javascript'  // declaration , assignment
 course = 'js'      // reassignment
