@@ -6,9 +6,9 @@
 // strings
  let student=[
      {clg:'ecet', branch:'ece', section:'a', courses:'iot'},
-     {clg:'ecet', branch:'cse', section:'b', courses:'ai'},
-     {clg:'ecet', branch:'eee', section:'c', courses:'bee'},
-     {clg:'ecet', branch:'mech', section:'a', courses:'na'},
+     {clg:'rce', branch:'cse', section:'b', courses:'ai'},
+     {clg:'reddy', branch:'eee', section:'c', courses:'bee'},
+     {clg:'andhara', branch:'mech', section:'a', courses:'na'},
 
  ]
  console.log(student[0].clg);
