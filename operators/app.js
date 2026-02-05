@@ -115,10 +115,12 @@ console.log(10>=5);
 console.log(10<=5);
 
 
-let babi = 100
-naveen =  50
-console.log(prompt(babi+naveen));
-
+let cls1 =Number(prompt("enter the classone="))
+    cls2 =Number(prompt("enter the classtwo="))
+   alert(cls1+cls2)             //  it will diplay on the web browser
+   console.log(cls1+cls2);      // it will dipaly in the console 
+   
+    
 
 
 
