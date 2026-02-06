@@ -115,12 +115,39 @@ console.log(10>=5);
 console.log(10<=5);
 
 
-let cls1 =Number(prompt("enter the classone="))
-    cls2 =Number(prompt("enter the classtwo="))
-   alert(cls1+cls2)             //  it will diplay on the web browser
-   console.log(cls1+cls2);      // it will dipaly in the console 
+//  Type casting:
+// two types:    
+//     1. Implicit Type Casting (Type Coercion)
+//     2.  Explicit Type Casting
+
+
+// 1.  Implicit Type Casting (Type Coercion)
+//       Here JavaScript converts types by itself.
+
+console.log('10'+2);
+console.log(+'10'+2);
+console.log(10+ +'20'+ +'10');
+console.log(10+10*2+ +'5');
+
+//  2.  Explicit Type Casting
+//      You convert datatype manually using functions.
+
+let value1 = Number('100')
+   value2  = Number(2)
+console.log(value1+value2);
+
+
+
+
+
+
+// let cls1 =Number(prompt("enter the classone="))
+//     cls2 =Number(prompt("enter the classtwo="))
+//    alert(cls1+cls2)             //  it will diplay on the web browser
+//    console.log(cls1+cls2);      // it will dipaly in the console 
    
     
+
 
 
 
