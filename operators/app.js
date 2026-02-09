@@ -6,9 +6,8 @@
 //3.Comparison Operators
 //4.Logical Operators
 //5.String Operators
-//6.Type Operators
-//7.Ternary Operator
-//8.Coercion Operator
+//6.Ternary Operator
+//7.Coercion Operator
 
 //1.Arithmetic Operators: it performs operation like  +, -, *, /, %, **, ++, --
 //+
