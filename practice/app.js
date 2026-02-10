@@ -32,7 +32,7 @@
 
 //     }
 
-  // oddnumber:
+ // oddnumber:
 // let a=1
 // for (i=0; i<=50; i++){
 //     console.log(++i);
@@ -70,6 +70,7 @@
 // }
 
 
+//background color:
 
-// var col=prompt('enter the color')
-// document.body.style.backgroundColor= col
+var col=prompt('enter the color')
+document.body.style.backgroundColor= col
