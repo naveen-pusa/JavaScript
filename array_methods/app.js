@@ -40,7 +40,7 @@ console.log(nam);
 
 //includes()
 let product =['phones','laptops','bags','dress']
-console.log(product.includes('laptops'));           // if the give value is there then it will be true or false
+console.log(product.includes('laptops'));           // if the give value is there then it will be true if not there it will bwe false false
 
 
 //indexOf()

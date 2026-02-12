@@ -1,26 +1,47 @@
-// let products = ['watch','Shirts','shirts','t-shirts', 'laptop','chager','keypad phones' ]
+//Task by using the array methods:
+
+var products = [
+    {nam:'apple',       imgg: 'https://inventstore.in/wp-content/uploads/2024/07/63.webp', decp:'This phone is belongs to apple product', cost:'💰15000T'},
+    {nam:'lenovo',      imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkNreW2EyhH2dX1yOdlGNlMRz5zF0vOFSneA&s', decp:'This phone is belongs to lenovo product', cost:'💰100000'},
+    {nam:'vivo',        imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ieBkQ73BX_6zMy8MPaSH2a2xvahklF_Enw&s', decp:'This phone is belongs to vivo product', cost:'💰25000'},
+    {nam:'Samsung S23', imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtbnAEK50-8JP1q8u4q1nPVJ41Y4LcOx-rQ&s', decp:'This phone is belongs to sumsung product', cost:'💰10000'},
+    {nam:'Redmi Note',  imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-byGdg1kSFQVVErOkUmUhRq9YxGip6o9Uw&s', decp:'This phone is belongs to red mi note product', cost:'💰15000'},
+    {nam:'poco',        imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfGloLW3ocO913DI7AJrByJnK1F4027_wnQ&s', decp:'This phone is belongs to poco product',        cost:'💰30000'}
+]
+//concat:
+// let phones = [
+//     {nam:'apple',       imgg: 'https://inventstore.in/wp-content/uploads/2024/07/63.webp', decp:'This phone is belongs to apple product', cost:'💰15000T'},
+//    {nam:'lenovo',      imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkNreW2EyhH2dX1yOdlGNlMRz5zF0vOFSneA&s', decp:'This phone is belongs to lenovo product', cost:'💰100000'},
+//    {nam:'vivo',        imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ieBkQ73BX_6zMy8MPaSH2a2xvahklF_Enw&s', decp:'This phone is belongs to vivo product', cost:'💰25000'},
+//    {nam:'Samsung S23', imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtbnAEK50-8JP1q8u4q1nPVJ41Y4LcOx-rQ&s', decp:'This phone is belongs to sumsung product', cost:'💰10000'},
+//    {nam:'Redmi Note',  imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-byGdg1kSFQVVErOkUmUhRq9YxGip6o9Uw&s', decp:'This phone is belongs to red mi note product', cost:'💰15000'},
+//    {nam:'poco',        imgg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfGloLW3ocO913DI7AJrByJnK1F4027_wnQ&s', decp:'This phone is belongs to poco product',        cost:'💰30000'}
+// ]
+//   products = products.concat(phones)
+
+// (push , unshift, pop, shift):
+// products.push({nam:'apple',       imgg: 'https://s3.ap-south-1.amazonaws.com/buybesto/vivo-v15-pro.jpeg', decp:'This phone is belongs to apple product', cost:'💰15000T'})
+// products.unshift({nam:'apple',    imgg: 'https://s3.ap-south-1.amazonaws.com/buybesto/vivo-v15-pro.jpeg', decp:'This phone is belongs to apple product', cost:'💰15000T'})
+// products.pop({nam:'apple',        imgg: 'https://s3.ap-south-1.amazonaws.com/buybesto/vivo-v15-pro.jpeg', decp:'This phone is belongs to apple product', cost:'💰15000T'})
+// products.shift({nam:'apple',       imgg: 'https://s3.ap-south-1.amazonaws.com/buybesto/vivo-v15-pro.jpeg', decp:'This phone is belongs to apple product', cost:'💰15000T'})
+
+//reverse:
+//products.reverse()
+// splice
+// products.splice(0,2)
 
 
-// for(let i=0; i<products.length; i++){
-//     console.log(products[i]);
-//      document.body.innerHTML += (`
-//      <div id= card>
-//      <div class= product >
-//      <h1 class= >${products[i]}</h1>
-//      <img  src="./download.jpeg" alt="">
-//      <p> i have ordered this product from flipkart</p>
-//      <h5 class=iteams>iteams:</h5>
-//      <ol>
-//      <li>blackboard</li>
-//      <li> book</li>
-//      <li>pen </li>
-//      <li>penical </li>
-//      </ol>
-//      </div>
-//      </div>
-
-//     `)
-// }
+for(let i=0; i<products.length; i++){
+    console.log(products[i]);
+     document.body.innerHTML += (`
+     <div id='cards'>
+        <h1>${products[i].nam}</h1>
+        <img src=" ${products[i].imgg}" alt="">
+        <p><b>${products[i].decp}</b</p>
+        <p>${products[i].cost}</p>
+     </div>
+    `)
+}
 
  
 // let b=2
@@ -69,8 +90,6 @@
 //   document.writeln('<br>')
 // }
 
-
+ 
 //background color:
 
-var col=prompt('enter the color')
-document.body.style.backgroundColor= col
