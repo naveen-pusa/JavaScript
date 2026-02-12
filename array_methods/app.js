@@ -82,9 +82,17 @@ console.log(num);
 
 //4. Copy & modify
 
-//slice()
+//slice() → copy part of array
+let letters = ['a','b','c','d'];
+let newArr = letters.slice(1,3);
 
-//splice()
+console.log(newArr);
+
+//splice() :(add/remove items)
+let fruits = ['apple','banana','mango'];
+
+fruits.splice(1,1); 
+console.log(fruits);
 
 //concat()
 // it will join the values:

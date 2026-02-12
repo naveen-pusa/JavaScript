@@ -30,6 +30,10 @@ var products = [
 // splice
 // products.splice(0,2)
 
+//join:
+
+
+
 
 for(let i=0; i<products.length; i++){
     console.log(products[i]);
