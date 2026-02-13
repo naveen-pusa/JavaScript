@@ -102,7 +102,12 @@ let b = [3, 4];
 let c = a.concat(b)
 console.log(c);
 
+// split
+// it will split the every word in to the strings:
+var text = "I love JavaScript";
+var text = text.split(" ");
 
+console.log(text);
 
  
 

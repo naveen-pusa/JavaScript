@@ -54,7 +54,7 @@
 // }
 
 // usig the two numbers
-
+ // it divided by 5 and 2
 // let c=prompt('enter the number')
 // if (c%5==0){
 //     if (c%2==0){
