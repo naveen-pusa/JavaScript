@@ -23,3 +23,24 @@ for (i in products){
     
 }
 
+//forEach() method (most used):
+
+// let fruits = ["apple", "banana", "mango"];
+
+// fruits.forEach(function(item) {
+//   console.log(item);
+// });
+
+
+//map() (creates new array)
+
+//  Used when you want a new array after changing values.
+
+let numbers = [1, 2, 3, 4];
+
+let doubled = numbers.map(n => n * 2);
+console.log(doubled);
+
+for (let a = 1; a <= 10; a++) {
+  console.log(5 * a);
+}

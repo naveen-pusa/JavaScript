@@ -24,18 +24,33 @@
 //     }
         
 //stars:
-var row =5;
-for (var i=0; i<=row; i++){
-    let space=('');
-    let star =(' *');
-    for(j=0; j<=row-1; j++){
-     space+=('')   
-    }
-    for (s=0; s<=2*i-1; s++){
-    star+=('*')
-    }
+// var row =5;
+// for (var i=0; i<=row; i++){
+//     let space=('');
+//     let star =(' *');
+//     for(j=0; j<=row-1; j++){
+//      space+=('')   
+//     }
+//     for (s=0; s<=2*i-1; s++){
+//     star+=('*')
+//     }
     
-    console.log(space+star);
+//     console.log(space+star);
     
-}
+// }
+
+// let num = prompt('enter alert');   // change number here
+
+// if (num % 3 === 0 && num % 5 === 0) {
+//   alert("FizzBuzz");
+// }
+// else if (num % 3 === 0) {
+//   alert("Fizz");
+// }
+// else if (num % 5 === 0) {
+//   alert("Buzz");
+// }
+// else {
+//   alert("Not divisible by 3 or 5");
+// }
  

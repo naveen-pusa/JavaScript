@@ -39,3 +39,18 @@ greet();
 // }
 // add(2,8)
 
+
+let num = prompt("Enter number");
+
+if (num % 3 == 0 && num % 5 == 0) {
+  alert("FizzBuzz");
+}
+else if (num % 3 == 0) {
+  alert("Fizz");
+}
+else if (num % 5 == 0) {
+  alert("Buzz");
+}
+else {
+  alert("Not divisible by 3 or 5");
+}
