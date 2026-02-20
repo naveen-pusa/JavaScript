@@ -54,3 +54,14 @@
 //   alert("Not divisible by 3 or 5");
 // }
  
+// let str = "hello world";
+
+// console.log ( str.toUpperCase() );
+//    // HELLO WORLD
+// console.log( str.includes("world")); // true
+// console.log(str.slice(0,5));
+
+
+
+
+

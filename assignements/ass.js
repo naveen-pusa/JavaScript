@@ -68,25 +68,55 @@
 
 
 //2.Create a JavaScript program that calculates electricity bills based on the following criteria:
+ 
+// function currentbill(units){ 
+// let bill = 0;
 
-let units = 210; // units consumed
-let bill = 0;
+// if(units <= 50){
+//     bill = units * 1;
+// }
+// else if(units <= 100){
+//     bill = 50 * 1 + (units - 50) * 2;
+// }else if(units<=150){
+//     bill =50*1+50*2+(units-100)*3
+// }
+// else if(units<=200){
+//     bill =50*1+50*2+50*3+(units-150)*4
+// }else {
+//     bill =50*1+50*2+50*3+50*4+(units-200)*5
+//     bill = bill-(bill*0.10)
+// }
+// return bill;
+// }
 
-if(units <= 50){
-    bill = units * 1;
+// let amount = prompt('');
+// let total  = currentbill(Number(amount));
+// console.log("Total Electricity Bill: ₹" + total);
+
+
+//Employee Salary Calculator
+
+let hours =40;
+let rent =10;
+let extra = rent*1.5;
+
+
+
+function calculateWeeklySalary(hoursWorked, hourlyRate){
+    let total;
+    let employee  = 'naveen salary:'
+
+    if (hoursWorked<=40){
+        total=hoursWorked*hourlyRate
+    }else if (hoursWorked>40) {
+        let more=hoursWorked-hours
+        total= hoursWorked*hourlyRate+(more*extra)
+    }if(bounse=10){
+       total= total+bounse
+    }
+    console.log(employee +total);
+    
 }
-else if(units <= 100){
-    bill = 50 * 1 + (units - 50) * 2;
-}else if(units<=150){
-    bill =50*1+50*2+(units-100)*3
-}
-else if(units<=200){
-    bill =50*1+50*2+50*3+(units-150)*4
-}else {
-    bill =50*1+50*2+50*3+50*4+(units-200)*5
-    bill = bill-(bill*0.10)
-}
 
 
-
-console.log("Total Electricity Bill: ₹" + bill);
+calculateWeeklySalary(40,10)
