@@ -40,6 +40,15 @@
 
 // console.log(data);
 
+function test() {
+    let age = 25;  // Function scope
+    console.log(age);
+}
+
+test();
+
+
+
 
 
 
