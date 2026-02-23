@@ -1,5 +1,6 @@
 // JavaScript String Methods
-
+// String methods are built-in functions in JavaScript that allow us to work with and manipulate text
+// it should be represented with . lenght ... in the ( console.log())
 
 // length
 
@@ -13,19 +14,19 @@ console.log(haresh.toUpperCase()); // it change all text into capital letters.
 
 //toLowerCase()
 
-var hareshSir = 'javascript trainer'
+var hareshSir = 'JAVASCRIPT TRAINER'
 console.log(hareshSir.toLowerCase());  // it change all text into small letters.
 
 //trim()
 
-var product = '     I have order a samll product        '
-console.log(product.trim()); // it Remove the unwanted space in the text.
+var product = '       I have order a samll product        '
+console.log(product.trim()); // it Remove the unwanted space in the text. front and back only not in the middle of the text
 
 
 //slice()
 
  var naveen ='     He is learning frontend course   ' 
- console.log(naveen.slice());     // it will takes the how much space we have given to the text. In the output.
+ console.log(naveen.slice());     // it will takes the how much space we have given to the text. In the output. front and back  .
 
  //slice(-5,-1)  ,  substring()
 

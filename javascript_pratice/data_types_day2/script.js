@@ -55,7 +55,7 @@ console.log(empty)
 //BigInt  *//  Stores very large numbers
 
 let small = 12345678942242346154653323224926415754
-console.log(small)                                 // it was storing the valu with saome e+
+console.log(small)                                 // it was storing the valu with some e+
 
 let larg = 12345678942242346154653323224926415754n
 console.log(larg)                                  // by using the 'n' at last it was showing the output same
@@ -89,9 +89,9 @@ console.log(' In achiver-it institute ' +fullsatck.javascript +' tells javascrip
     ' tells sql. ' + fullsatck.english +' tells the communiaction class in the institue' )
 
    // all the keys in the fullstack
-    console.log(Object.keys(fullsatck));      
+    console.log(Object.keys(fullsatck));      // if we want only the key we use that (object.key())
 // single keys in the fullstack
-    console.log(Object.keys(fullsatck)[0]);
+    console.log(Object.keys(fullsatck)[0]);   // if want each value in the obejct (object.keys(decleration)(indexvalue))
      console.log(Object.keys(fullsatck)[1]);
       console.log(Object.keys(fullsatck)[2]);
        console.log(Object.keys(fullsatck)[3]);
