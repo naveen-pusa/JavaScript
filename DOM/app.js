@@ -15,15 +15,16 @@
 
 // let teacher = document.getElementsByTagName('li')
 
-// teacher[0].style.background='red'
+// teacher[2].style.background='red'
 
 // console.log(teacher);
 
-// let teacher = document.getElementsByClassName('teacher')
-// teacher[1].style.color='red'
+let teacher = document.getElementsByClassName('teacher')
+teacher[1].style.color='red'
 // console.log(teacher);
 
-// let child = document.getElementById('child2')
+let child = document.getElementById('teacher')
+child.style.background='green'
 
 // child.addEventListener('click',()=>{
 //     child.innerHTML = 'this changed with the id'
@@ -80,6 +81,7 @@
 // console.log(fruits.nextElementSibling);
 // console.log(fruits.firstElementChild);
 // console.log(fruits.lastElementChild);
+
 
 
 

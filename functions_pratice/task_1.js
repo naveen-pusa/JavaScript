@@ -39,20 +39,20 @@
     
 // }
 
-// let num = prompt('enter alert');   // change number here
+let num = prompt('enter alert');   // change number here
 
-// if (num % 3 === 0 && num % 5 === 0) {
-//   alert("FizzBuzz");
-// }
-// else if (num % 3 === 0) {
-//   alert("Fizz");
-// }
-// else if (num % 5 === 0) {
-//   alert("Buzz");
-// }
-// else {
-//   alert("Not divisible by 3 or 5");
-// }
+if (num % 3 === 0 && num % 5 === 0) {
+  alert("FizzBuzz");
+}
+else if (num % 3 === 0) {
+  alert("Fizz");
+}
+else if (num % 5 === 0) {
+  alert("Buzz");
+}
+else {
+  alert("Not divisible by 3 or 5");
+}
  
 // let str = "hello world";
 
