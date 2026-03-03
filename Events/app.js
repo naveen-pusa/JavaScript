@@ -61,6 +61,26 @@
 // })
 
 
+// let input1 = document.getElementById('input1')
+
+// input1.addEventListener('focus',()=>{
+//   input1.value=  input1.value.toLowerCase()
+
+// console.log('this Element is focused');
+
+
+// })
+
+
+// input1.addEventListener('blur',()=>{
+    
+//  input1.value  = input1.value.toUpperCase()
+
+// console.log('this Element is blur');
+
+// })
+
+
 
 
 
