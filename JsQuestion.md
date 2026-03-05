@@ -10,6 +10,9 @@
 9) template literals 
 10)conditional statements / ternary / switch case
 11)DOM 
+12)DomManipulations Events
+13)Events
+14)AddEventListner
     
  -->
  

@@ -62,12 +62,12 @@ let subChild = document.getElementById('subChild')
 // target vs CurrentTarget
 
 
-// let btn = document.getElementById('btn')
+let btn = document.getElementById('btn')
 
-// btn.addEventListener('click',(e)=>{
-//     console.log(e.currentTarget);
+btn.addEventListener('click',(e)=>{
+    console.log(e.currentTarget);
     
-// })
+})
 
 // 
 
