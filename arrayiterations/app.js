@@ -32,7 +32,8 @@ mobilep.forEach(product=>{
          <h1>${product.title}</h1>
          <img src="${product.img}" alt="">
          <p>${product.desc}</p>
-     </div>   
+     </div>  
+      
     `
 })
 
