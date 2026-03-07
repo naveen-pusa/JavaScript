@@ -10,13 +10,13 @@ let fruits = document.getElementById('fruits')
 // })
 
 
-fruits.addEventListener('click',(e)=>{
+// fruits.addEventListener('click',(e)=>{
 
-    if (e.target.tagName == 'LI') {
-        alert(`${e.target.textContent}`)
-    }
+//     if (e.target.tagName == 'LI') {
+//         alert(`${e.target.textContent}`)
+//     }
 
-})
+// })
 
 
 let btn = document.getElementById('btn')
