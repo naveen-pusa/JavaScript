@@ -61,6 +61,61 @@ renderProducts(products)
         cart.push(temp)
         document.getElementById('r').innerHTML = cart.length
         console.log(cart);
+        sum()
+    }
+
+    // reduce
+
+    // let num = [1,2,3,4,5,6,7,8,9,10]
+    // console.log(num);
+
+    // let outpUt = num.reduce((acc,value)=>{
+    //     // console.log(acc+value);
+    //     return acc+value
+        
+    // })
+
+    // console.log(outpUt);
+
+
+    function sum() {
+        let totalSum = cart.reduce((acc,value)=>{
+                return acc+value.cost
+        },0)
+
+        console.log(totalSum);
         
 
+        document.getElementById('result').innerHTML = totalSum
     }
+
+
+//      let num = [100,20,15,2,3,4,5,6,7,8,9,10,12,]
+
+//    let output = num.some(x=>{
+//     console.log(x);
+//     return x < 13
+//    })
+
+//    console.log(output);
+
+
+// every
+
+
+     let num = [3,4,5,6,7,8,9,10,12]
+
+   let output = num.every(x=>{
+    console.log(x);
+    return x <=12
+   })
+
+   console.log(output);
+
+
+   
+
+
+
+    
+    
