@@ -90,6 +90,8 @@ renderProducts(products)
     }
 
 
+    //some:
+
 //      let num = [100,20,15,2,3,4,5,6,7,8,9,10,12,]
 
 //    let output = num.some(x=>{
