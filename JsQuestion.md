@@ -13,7 +13,20 @@
 12)DomManipulations Events
 13)Events
 14)AddEventListner
-    
+
+
+timingFunctions
+function recursion
+closures
+toggle
+constructor fucntion 
+destructuring
+promises
+fetch apis
+async&await
+modules
+
+spread & restOperator
  -->
  
 

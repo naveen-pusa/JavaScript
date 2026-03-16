@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+    height: 90vh;
+}
+        .container{
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        #dice1,#dice2{
+            background-color: orangered;
+            height: 200px;
+            width: 200px;
+            display: grid;
+            place-items: center;
+        
+
+        }
+
+        .addRotate{
+                transform: rotate(360deg);
+             transition: all 2s 1ms linear;
+     
+        }
+
+        #btn{
+            background-color: blueviolet;
+            border: none;
+            padding: 5px;
+            width: 80px;
+            display: inline-block;
+             margin-top: 100px;
+
+          
+        }
+
+
+ 
+
+
+
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Dice Game</h1>
+
+
+
+    </center>
+
+    
+            <div class="container">
+                
+                <div id="dice1">
+                    <h2 id="h2">0</h2>
+                </div>
+                <div id="dice2">
+                    <h2 id="h2">0</h2>
+                </div>
+            <button id="btn" onclick="diceGame()">Roll</button>
+            </div>
+            
+            <script src="./app.js"></script>
+</body>
+</html>
