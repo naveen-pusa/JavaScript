@@ -13,14 +13,17 @@
 12)DomManipulations Events
 13)Events
 14)AddEventListner
-
-
 timingFunctions
-function recursion
-closures
-toggle
+
 constructor fucntion 
 destructuring
+closures
+
+formvalidation 
+regex
+function recursion
+toggle
+
 promises
 fetch apis
 async&await
