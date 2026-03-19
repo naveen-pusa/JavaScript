@@ -14,17 +14,19 @@
 13)Events
 14)AddEventListner
 timingFunctions
-
 constructor fucntion 
 destructuring
+Math and DateObjects
 closures
-
 formvalidation 
 regex
+
+
+promises
 function recursion
 toggle
 
-promises
+
 fetch apis
 async&await
 modules

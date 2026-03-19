@@ -29,7 +29,7 @@
 //     this.name = name
 //     this.password = password
 // }
-
+ 
 
 // let user1 = new DataFun(document.getElementById('uname').value,document.getElementById('pass').value )
 // console.log(user1);
