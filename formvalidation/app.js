@@ -39,24 +39,6 @@ function logInForm() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     // if (userName.trim()=='' || password.trim()=="") {
     //         alert('Invalid Data')
