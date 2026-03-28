@@ -42,14 +42,15 @@ let apiQuotes = fetch('https://dummyjson.com/quotes?limit=500')
 })
 .then(({quotes})=>{
     console.log(quotes);
-    pr.innerHTML=`<h3>${quotes[randomNum].quote}</h3>`
-   rp.innerText =quotes[randomNum].author
+    rp.innerHTML =`<h1>${quotes[randomNum].author}</h1>`
+    pr.innerText=quotes[randomNum].quote
+   
 
 
 
     
-    // console.log(quotes[randomNum].quote);
-    // console.log(quotes[randomNum].author);
+    console.log(quotes[randomNum].quote);
+    console.log(quotes[randomNum].author);
 
 
     

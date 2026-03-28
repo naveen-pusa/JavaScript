@@ -16,20 +16,21 @@
 timingFunctions.
 constructor fucntion. 
 destructuring.
-Local storage & session storage
+Local storage & session storage.
 Math and DateObjects
 closures
 formvalidation 
 regex
-
 promises 
+fetch apis
+async&await
 callBack fucntions drawbacks
+callApplybind
 
 function recursion
 toggle
 
-fetch apis
-async&await
+
 modules
 
 spread & restOperator
