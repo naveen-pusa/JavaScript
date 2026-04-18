@@ -1,0 +1,1 @@
+export let url = ()=> fetch('https://dummyjson.com/products') 
