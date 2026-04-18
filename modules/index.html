@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <style>
+       #container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+    }
+
+    #card{
+        height: 450px;
+        width: 450px;
+        text-align: center;
+        border:  1px solid lightgrey;
+    }
+
+
+    img{
+        height: 200px;
+        width: 300px;
+    }
+
+
+    header{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+ </style>
+
+</head>
+<body>
+
+    <center>
+        <h1>Modules</h1>
+    </center>
+
+<header>
+    
+<div>  
+    <input type="text" id='search'> 
+</div>
+<div><a href="">Cart <sup id="count"></sup> </a></div>
+</header>
+
+
+    <div id="container">
+
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
