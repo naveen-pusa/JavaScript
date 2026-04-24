@@ -17,6 +17,10 @@ let apiProducts = await productsApi()
             <img src="${i.thumbnail}" alt="">
             <h1>${i.title}</h1>
             <p>${i.description}</p>
+            <mark>${i.price}</mark>
+            <br>
+        <mark>${i.rating}</mark>
+
             <button onclick="AddProduct(${i.id})">Add Cart</button>
         </div> 
         `
@@ -35,6 +39,49 @@ search.addEventListener('input',(e)=>{
     let temp = apiProducts.filter(p => p.title.toLowerCase().includes(value.toLowerCase()))
     renderProducts(temp)
 })
+
+
+let three = document.getElementById('three')
+let four = document.getElementById('four')
+let priceR = document.getElementById('priceR')
+let valueP = document.getElementById('valueP')
+
+
+function allFillter(params) {
+
+    let filterP = [...apiProducts]
+
+    let maxPrice = Number(priceR.value) || 100
+
+    valueP.innerHTML = maxPrice
+
+    filterP = filterP.filter(p=> p.price >= 0 && p.price <=maxPrice)
+
+    let selectP = []
+
+    if (three.checked) {
+        selectP.push(3)
+    }
+
+       if (four.checked) {
+        selectP.push(4)
+    }
+
+    if (selectP.length >= 0) {
+        filterP = filterP.filter(p=> selectP.includes(Math.floor(p.rating)))
+    }
+
+    renderProducts(filterP)
+
+}
+
+three.addEventListener('change',allFillter)
+four.addEventListener('input',allFillter)
+priceR.addEventListener('input',allFillter)
+
+
+
+
 
 
 // addProduct

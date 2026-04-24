@@ -35,17 +35,17 @@ var products = [
 
 
 
-for(let i=0; i<products.length; i++){
-    console.log(products[i]);
-     document.body.innerHTML += (`
-     <div id='cards'>
-        <h1>${products[i].nam}</h1>
-        <img src=" ${products[i].imgg}" alt="">
-        <p><b>${products[i].decp}</b</p>
-        <p>${products[i].cost}</p>
-     </div>
-    `)
-}
+// for(let i=0; i<products.length; i++){
+//     console.log(products[i]);
+//      document.body.innerHTML += (`
+//      <div id='cards'>
+//         <h1>${products[i].nam}</h1>
+//         <img src=" ${products[i].imgg}" alt="">
+//         <p><b>${products[i].decp}</b</p>
+//         <p>${products[i].cost}</p>
+//      </div>
+//     `)
+// }
 
  
 // let b=2
